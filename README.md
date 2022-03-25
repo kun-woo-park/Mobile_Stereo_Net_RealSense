@@ -161,7 +161,8 @@ If you use this code, please cite this paper:
 The repository is maintained by [Faranak Shamsafar](https://www.linkedin.com/in/faranak-shamsafar/).  
 [f.shmsfr@gmail.com](f.shmsfr@gmail.com)  
 
-## Add realsense to prediction source. To implement, follow the below command(2022-03-24)
+## Add realsense to prediction source. 
+## To implement, follow the below command(2022-03-24)
 ```bash
 python prediction.py --loadckpt ./weights/MSNet2D_SF_DS_KITTI2015.ckpt --model MSNet2D
 ```
