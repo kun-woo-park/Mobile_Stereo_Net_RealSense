@@ -1,4 +1,7 @@
 # MobileStereoNet
+
+### This repo is forked from https://github.com/cogsys-tuebingen/mobilestereonet
+
 ![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)    
 
 This repository contains the code for "MobileStereoNet: Towards Lightweight Deep Networks for Stereo Matching", presented at WACV 2022 [[Paper](https://openaccess.thecvf.com/content/WACV2022/papers/Shamsafar_MobileStereoNet_Towards_Lightweight_Deep_Networks_for_Stereo_Matching_WACV_2022_paper.pdf)] [[Supp](https://openaccess.thecvf.com/content/WACV2022/supplemental/Shamsafar_MobileStereoNet_Towards_Lightweight_WACV_2022_supplemental.pdf)] [[arXiv](https://arxiv.org/pdf/2108.09770.pdf)] [[Video Presentation](https://www.youtube.com/watch?v=mui_M2OcZG8)].
@@ -160,3 +163,8 @@ If you use this code, please cite this paper:
 ## Contact
 The repository is maintained by [Faranak Shamsafar](https://www.linkedin.com/in/faranak-shamsafar/).  
 [f.shmsfr@gmail.com](f.shmsfr@gmail.com)  
+
+## Add realsense to prediction source. To implement, follow the below command(2022-03-24)
+```bash
+python prediction.py --loadckpt ./weights/MSNet2D_SF_DS_KITTI2015.ckpt --model MSNet2D
+```
