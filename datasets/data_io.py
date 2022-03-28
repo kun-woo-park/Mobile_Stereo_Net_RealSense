@@ -6,6 +6,8 @@ import torchvision.transforms as transforms
 def get_transform():
     mean = [0.485, 0.456, 0.406]
     std = [0.229, 0.224, 0.225]
+   # mean = [0.459, 0.459, 0.459] # convert to grayscale for librealsense (R*0.299 + G*0.587 + B*0.114) -> performance degration, failed 2022-03-28
+   # std = [0.226, 0.226, 0.226] # convert to grayscale for librealsense (R*0.299 + G*0.587 + B*0.114) -> performance degration, failed 2022-03-28
     return transforms.Compose([
         transforms.ToTensor(),
         transforms.Normalize(mean=mean, std=std)])
