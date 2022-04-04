@@ -166,5 +166,7 @@ The repository is maintained by [Faranak Shamsafar](https://www.linkedin.com/in/
 
 ## Add realsense to prediction source. To implement, follow the below command(2022-03-24)
 ```bash
+pip install pyrealsense2
+
 python prediction.py --loadckpt ./weights/MSNet2D_SF_DS_KITTI2015.ckpt --model MSNet2D
 ```
